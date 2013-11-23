@@ -1,0 +1,8 @@
+markdown: redcarpet
+pygments: true
+paginate: 5
+permalink: :categories/:title
+
+title: Ray's Blog
+url: http://aartisan.github.io
+author_info: <a href="http://aartisan.github.io/about">Ray</a>
