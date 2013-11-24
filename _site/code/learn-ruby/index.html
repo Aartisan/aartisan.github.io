@@ -31,20 +31,20 @@
 
 		<link rel="stylesheet" href="/js/prettify/prettify.css" />
 <style type="text/css">
-	body { background:#e8e8e8; }
-	@media screen and (max-width: 750px){
-		body { background:#fff; }
-	}
-	@media screen and (max-width: 1020px){
-		body { background:#fff; }
-	}
+  body { background:#e8e8e8; }
+  @media screen and (max-width: 750px){
+    body { background:#fff; }
+  }
+  @media screen and (max-width: 1020px){
+    body { background:#fff; }
+  }
 </style>
 
 <div id="content">
-	<div class="entry">
-		<h1 class="entry-title"><a href="/code/learn-ruby" title="Ruby的<=>运算符">Ruby的<=>运算符</a></h1>
-		<p class="entry-date">2013-11-11</p>
-		<p>最近在重新梳理自己的ruby知识,发现自己还是很多细节的知识不是很明了,比如今天要说到的 <code>&lt;=&gt;</code> 运算符.</p>
+  <div class="entry">
+    <h1 class="entry-title"><a href="/code/learn-ruby" title="Ruby的<=>运算符">Ruby的<=>运算符</a></h1>
+    <p class="entry-date">2013-11-11</p>
+    <p>最近在重新梳理自己的ruby知识,发现自己还是很多细节的知识不是很明了,比如今天要说到的 <code>&lt;=&gt;</code> 运算符.</p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">#a &lt;=&gt; b
 #如果a等于b 返回结果 0
 #如果a大于b 返回结果 1
@@ -60,75 +60,75 @@
 通过文档查阅发现:其它比较操作符（&gt;,&gt;=,&lt;,&lt;=）均是调用&lt;=&gt;</p>
 
 
-		<div id="disqus_container">
-			<div style="margin-bottom:20px" class="right">
-				<script type="text/javascript" charset="utf-8">
-					(function(){
-						var _w = 86 , _h = 16;
-						var param = {
-							url:location.href,
-							type:'6',
-							count:'', /**是否显示分享数，1显示(可选)*/
-							appkey:'', /**您申请的应用appkey,显示分享来源(可选)*/
-							title:'', /**分享的文字内容(可选，默认为所在页面的title)*/
-							pic:'', /**分享图片的路径(可选)*/
-							ralateUid:'1823913804', /**关联用户的UID，分享微博会@该用户(可选)*/
-							language:'zh_cn', /**设置语言，zh_cn|zh_tw(可选)*/
-							rnd:new Date().valueOf()
-						}
-						var temp = [];
-						for( var p in param ){
-							temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
-						}
-						document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"></iframe>')
-					})()
-				</script>
-			</div>
-			<a href="#" class="comment" onclick="return false;">点击查看评论</a>
-			<div id="disqus_thread"></div>
-		</div>
-	</div>
+    <div id="disqus_container">
+      <div style="margin-bottom:20px" class="right">
+        <script type="text/javascript" charset="utf-8">
+          (function(){
+            var _w = 86 , _h = 16;
+            var param = {
+              url:location.href,
+              type:'6',
+              count:'', /**是否显示分享数，1显示(可选)*/
+              appkey:'', /**您申请的应用appkey,显示分享来源(可选)*/
+              title:'', /**分享的文字内容(可选，默认为所在页面的title)*/
+              pic:'', /**分享图片的路径(可选)*/
+              ralateUid:'1823913804', /**关联用户的UID，分享微博会@该用户(可选)*/
+              language:'zh_cn', /**设置语言，zh_cn|zh_tw(可选)*/
+              rnd:new Date().valueOf()
+            }
+            var temp = [];
+            for( var p in param ){
+              temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
+            }
+            document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"></iframe>')
+          })()
+        </script>
+      </div>
+      <a href="#" class="comment" onclick="return false;">点击查看评论</a>
+      <div id="disqus_thread"></div>
+    </div>
+  </div>
 
-	<div class="sidenav">
-		<iframe width="100%" height="75" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=zh_cn&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=1823913804&verifier=b193b9de&dpc=1"></iframe>
-	</div>
+  <div class="sidenav">
+    <iframe width="100%" height="75" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=zh_cn&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=1823913804&verifier=b193b9de&dpc=1"></iframe>
+  </div>
 
-	<div class="sidenav">
-		<h2>Code</h2>
-		<ul class="artical-list">
-			
-			<li><a href="/code/learn-ruby">Ruby的<=>运算符</a></li>
-			
-			<li><a href="/code/hhkb-professional-2-type-s">HHKB Professional 2 Type S</a></li>
-			
-			<li><a href="/code/learn_golang">Go在谷歌：以软件工程为目的的语言设计</a></li>
-			
-			<li><a href="/code/setup">起航:   jekyll编写博客</a></li>
-			
-		</ul>
+  <div class="sidenav">
+    <h2>Code</h2>
+    <ul class="artical-list">
+      
+      <li><a href="/code/learn-ruby">Ruby的<=>运算符</a></li>
+      
+      <li><a href="/code/hhkb-professional-2-type-s">HHKB Professional 2 Type S</a></li>
+      
+      <li><a href="/code/learn_golang">Go在谷歌：以软件工程为目的的语言设计</a></li>
+      
+      <li><a href="/code/setup">起航:   jekyll编写博客</a></li>
+      
+    </ul>
 
-		<h2>Life</h2>
-		<ul class="artical-list">
-			
-			<li><a href="/life/notitle">无题</a></li>
-			
-			<li><a href="/life/officer">官人来访(Officer)</a></li>
-			
-			<li><a href="/life/ugly">Ugly Notice</a></li>
-			
-			<li><a href="/life/Youth">Youth</a></li>
-			
-			<li><a href="/life/International-labor-day">International Labor Day</a></li>
-			
-			<li><a href="/life/Earthquake">Earthquake</a></li>
-			
-		</ul>
+    <h2>Life</h2>
+    <ul class="artical-list">
+      
+      <li><a href="/life/notitle">无题</a></li>
+      
+      <li><a href="/life/officer">官人来访(Officer)</a></li>
+      
+      <li><a href="/life/ugly">Ugly Notice</a></li>
+      
+      <li><a href="/life/Youth">Youth</a></li>
+      
+      <li><a href="/life/International-labor-day">International Labor Day</a></li>
+      
+      <li><a href="/life/Earthquake">Earthquake</a></li>
+      
+    </ul>
 
-		<h2>Project</h2>
-		<ul class="artical-list">
-			
-		</ul>
-	</div>
+    <h2>Project</h2>
+    <ul class="artical-list">
+      
+    </ul>
+  </div>
 </div>
 
 <script src="/js/post.js" type="text/javascript"></script>
