@@ -6,4 +6,4 @@ data:
 category: life
 ---
 
-[BeiYuu]:    http://beiyuu.com  "BeiYuu"
+[Ray]:    http://aartisan.github.io  "Ray"
