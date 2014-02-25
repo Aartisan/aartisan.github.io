@@ -10,6 +10,7 @@
 .*
 !.gitignore
 /.DS_Store
+/_site
 /tmp
 /log
 /config/database.yml
