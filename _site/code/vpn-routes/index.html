@@ -3,7 +3,7 @@
 	<head>
 		<!-- @Author: Ray -->
 		<meta charset="utf-8" />
-		<title>International Labor Day | Ray's Blog</title>
+		<title>VPN Routes设置 让国内网站速度快点 | Ray's Blog</title>
 		<meta name="author" content="Ray" />
 		<meta name="description" content="Ray's Blog" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -42,17 +42,16 @@
 
 <div id="content">
   <div class="entry">
-    <h1 class="entry-title"><a href="/life/International-labor-day" title="International Labor Day">International Labor Day</a></h1>
-    <p class="entry-date">2013-05-11</p>
-    <p>今天是2013-05-01(国际劳动节)，窗外有些许小雨。</p>
+    <h1 class="entry-title"><a href="/code/vpn-routes" title="VPN Routes设置 让国内网站速度快点">VPN Routes设置 让国内网站速度快点</a></h1>
+    <p class="entry-date">2014-02-19</p>
+    <ol>
+<li>购买VPN，设置好VPN相关配置</li>
+<li>下载 chnroutes.py，相关地址https://code.google.com/p/chnroutes/downloads/list</li>
+<li>下载 chnroutes.py 文件之后进入终端，找到文件执行相关命令 <code>python chnroutes.py -p mac</code>，命令执行后会在目录下生成「ip-up」，「ip-down」两个文件</li>
+<li>拷贝以上两个文件到 /etc/ppp 目录，执行 <code>sudo chmod a+x ip-up ip-down</code></li>
+</ol>
 
-<h2>放假3天</h2>
-
-<p>今天结束了3天的调休假期，时间比较冲忙，整个一段时间感觉什么都很赶，计划的事情干了几件还是有些没有完成、不过休息还是比较充分，养好精神明天开始上班了。  </p>
-
-<p>今天看了一部老汉推荐的电影--新特警判官，还不错！不过还是准备周末团购一个钢铁侠3去电影院看看。</p>
-
-<p>最近感觉工作有些许的不如意，细细想想也只能慢慢调整自己的心态，尽量做好。这个世界不可能事事都顺这你的意愿。</p>
+<p>完成操作，终端输入 <code>netstat -nr</code>检查路由表的输出信息，连接VPN之后再次执行，你会发现路由表变化了。</p>
 
 
     <div id="disqus_container">
